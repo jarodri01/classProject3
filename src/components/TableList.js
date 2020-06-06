@@ -73,14 +73,18 @@ render() {
   <div className= 'container'>
 
     <Table
+    
      rowSelection={{type: rowSelection}}
      dataSource={this.state.todos}
      columns={this.state.columns}/>
  
-     <Todos todos={this.state.todos}deleteTodo={this.deleteTodo}/>
+     <Todos 
+      todos={this.state.todos}
+      deleteTodo={this.deleteTodo}/>
+    
     <AddTodo 
      addTodo={this.addTodo}/>
- 
+    
   </div>
   //})}
       )
