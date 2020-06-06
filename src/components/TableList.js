@@ -70,7 +70,7 @@ render() {
   
   return(
   
-  <div className= 'container, icons-list'>
+  <div className= 'container'>
 
     <Table
      rowSelection={{type: rowSelection}}
