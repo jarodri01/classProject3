@@ -8,15 +8,13 @@
     margin: auto;
     width: 60%;
     border: 3px double blue;
-
     padding: 50px; 
 }
-.container{
+
+.todoContainer  {
     margin: auto;
     width: 60%;
     border: 3px double blue;
     padding: 50px; 
-}
-#to-do-form.button{
-    color: blue;
+
 }
